@@ -1,8 +1,10 @@
-this_is_variable = 1
+#demander d'entrer le nom
 
-def my_good_function():
-    my_good_function("Wrong!!")
+print("Qui etes-vous?")
+name = input("votre réponse ")
 
-my_good_function="good"
+print(f"bienvenu a cactuscity {name}")
 
-print("hello world")
+ville = input("d'ou tu viens wesh? ")
+print(f"cool bled {ville}!")
+
